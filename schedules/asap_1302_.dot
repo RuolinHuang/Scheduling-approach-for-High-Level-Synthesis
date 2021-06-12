@@ -1,0 +1,40 @@
+//do not use DOT to generate pdf use NEATO or FDP
+digraph{
+layout="neato";
+splines="ortho";
+d7[shape="ellipse", style="filled", color="#004E8ABF", pos="0,30!", height="1", width="1"];
+d7 -> d30;
+d7 -> d21;
+d7 -> d10;
+d7 -> d23;
+d7 -> d25;
+d7 -> d13;
+d7 -> d24;
+d7 -> d27;
+d7 -> d16;
+d7 -> d15;
+d7 -> d26;
+d7 -> d18;
+d30[shape="ellipse", style="filled", color="#004E8ABF", pos="0,28!", height="1", width="1"];
+d21[shape="ellipse", style="filled", color="#004E8ABF", pos="2,25!", height="7", width="1"];
+d21 -> d23;
+d10[shape="ellipse", style="filled", color="#004E8ABF", pos="4,28!", height="1", width="1"];
+d10 -> d16;
+d13[shape="ellipse", style="filled", color="#004E8ABF", pos="6,25!", height="7", width="1"];
+d13 -> d15;
+d18[shape="ellipse", style="filled", color="#004E8ABF", pos="8,28!", height="1", width="1"];
+d18 -> d24;
+d23[shape="ellipse", style="filled", color="#004E8ABF", pos="0,20!", height="1", width="1"];
+d23 -> d24;
+d15[shape="ellipse", style="filled", color="#004E8ABF", pos="2,20!", height="1", width="1"];
+d15 -> d16;
+d24[shape="ellipse", style="filled", color="#004E8ABF", pos="0,17!", height="3", width="1"];
+d24 -> d25;
+d16[shape="ellipse", style="filled", color="#004E8ABF", pos="2,17!", height="3", width="1"];
+d16 -> d25;
+d25[shape="ellipse", style="filled", color="#004E8ABF", pos="0,11!", height="7", width="1"];
+d25 -> d26;
+d26[shape="ellipse", style="filled", color="#004E8ABF", pos="0,6!", height="1", width="1"];
+d26 -> d27;
+d27[shape="ellipse", style="filled", color="#004E8ABF", pos="0,3!", height="3", width="1"];
+}
