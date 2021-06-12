@@ -1,0 +1,26 @@
+//do not use DOT to generate pdf use NEATO or FDP
+digraph{
+layout="neato";
+splines="ortho";
+d7[shape="ellipse", style="filled", color="#004E8ABF", pos="2,18!", height="1", width="1"];
+d7 -> d30;
+d7 -> d21;
+d7 -> d10;
+d7 -> d23;
+d7 -> d25;
+d7 -> d13;
+d7 -> d24;
+d7 -> d27;
+d7 -> d16;
+d7 -> d15;
+d7 -> d26;
+d7 -> d18;
+d21[shape="ellipse", style="filled", color="#004E8ABF", pos="6,13!", height="7", width="1"];
+d21 -> d23;
+d23[shape="ellipse", style="filled", color="#004E8ABF", pos="8,8!", height="1", width="1"];
+d23 -> d24;
+d13[shape="ellipse", style="filled", color="#004E8ABF", pos="6,5!", height="7", width="1"];
+d13 -> d15;
+d15[shape="ellipse", style="filled", color="#004E8ABF", pos="8,6!", height="1", width="1"];
+d15 -> d16;
+}
